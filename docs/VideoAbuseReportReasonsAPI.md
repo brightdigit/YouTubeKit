@@ -19,7 +19,7 @@ Retrieves a list of resources, possibly filtered.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter specifies the videoCategory resource parts that the API response will include. Supported values are id and snippet.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)

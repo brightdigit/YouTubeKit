@@ -24,7 +24,7 @@ Deletes a resource.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let id = "id_example" // String | 
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -95,7 +95,7 @@ Inserts a new resource into this collection.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter identifies the properties that the API response will include. Set the parameter value to snippet. The snippet part has a quota cost of 2 units.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -168,7 +168,7 @@ Retrieves a list of resources, possibly filtered.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter specifies a comma-separated list of one or more comment resource properties that the API response will include.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -249,7 +249,7 @@ Expresses the caller's opinion that one or more comments should be flagged as sp
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let id = ["inner_example"] // [String] | Flags the comments with the given IDs as spam in the caller's opinion.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -320,7 +320,7 @@ Sets the moderation status of one or more comments.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let id = ["inner_example"] // [String] | Modifies the moderation status of the comments with the given IDs
 let moderationStatus = "moderationStatus_example" // String | Specifies the requested moderation status. Note, comments can be in statuses, which are not available through this call. For example, this call does not allow to mark a comment as 'likely spam'. Valid values: MODERATION_STATUS_PUBLISHED, MODERATION_STATUS_HELD_FOR_REVIEW, MODERATION_STATUS_REJECTED.
@@ -395,7 +395,7 @@ Updates an existing resource.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter identifies the properties that the API response will include. You must at least include the snippet part in the parameter value since that part contains all of the properties that the API request can update.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)

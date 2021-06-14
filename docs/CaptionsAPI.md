@@ -23,7 +23,7 @@ Deletes a resource.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let id = "id_example" // String | 
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -98,7 +98,7 @@ Downloads a caption track.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let id = "id_example" // String | The ID of the caption track to download, required for One Platform.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -177,7 +177,7 @@ Inserts a new resource into this collection.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter specifies the caption resource parts that the API response will include. Set the parameter value to snippet.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -256,7 +256,7 @@ Retrieves a list of resources, possibly filtered.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter specifies a comma-separated list of one or more caption resource parts that the API response will include. The part names that you can include in the parameter value are id and snippet.
 let videoId = "videoId_example" // String | Returns the captions for the specified video.
@@ -335,7 +335,7 @@ Updates an existing resource.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter specifies a comma-separated list of one or more caption resource parts that the API response will include. The part names that you can include in the parameter value are id and snippet.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)

@@ -22,7 +22,7 @@ Deletes a resource.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let id = "id_example" // String | 
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -95,7 +95,7 @@ Inserts a new resource into this collection.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter serves two purposes in this operation. It identifies the properties that the write operation will set as well as the properties that the API response will include.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -172,7 +172,7 @@ Retrieves a list of resources, possibly filtered.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter specifies a comma-separated list of one or more playlist resource properties that the API response will include. If the parameter identifies a property that contains child properties, the child properties will be included in the response. For example, in a playlist resource, the snippet property contains properties like author, title, description, tags, and timeCreated. As such, if you set *part=snippet*, the API response will contain all of those properties.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -259,7 +259,7 @@ Updates an existing resource.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter serves two purposes in this operation. It identifies the properties that the write operation will set as well as the properties that the API response will include. Note that this method will override the existing values for mutable properties that are contained in any parts that the request body specifies. For example, a playlist's description is contained in the snippet part, which must be included in the request body. If the request does not specify a value for the snippet.description property, the playlist's existing description will be deleted.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)

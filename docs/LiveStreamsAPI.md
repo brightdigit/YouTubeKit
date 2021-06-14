@@ -22,7 +22,7 @@ Deletes an existing stream for the authenticated user.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let id = "id_example" // String | 
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -97,7 +97,7 @@ Inserts a new stream for the authenticated user.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter serves two purposes in this operation. It identifies the properties that the write operation will set as well as the properties that the API response will include. The part properties that you can include in the parameter value are id, snippet, cdn, content_details, and status.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -174,7 +174,7 @@ Retrieve the list of streams associated with the given channel. --
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter specifies a comma-separated list of one or more liveStream resource properties that the API response will include. The part names that you can include in the parameter value are id, snippet, cdn, and status.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
@@ -257,7 +257,7 @@ Updates an existing stream for the authenticated user.
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let part = ["inner_example"] // [String] | The *part* parameter serves two purposes in this operation. It identifies the properties that the write operation will set as well as the properties that the API response will include. The part properties that you can include in the parameter value are id, snippet, cdn, and status. Note that this method will override the existing values for all of the mutable properties that are contained in any parts that the parameter value specifies. If the request body does not specify a value for a mutable property, the existing value for that property will be removed.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)

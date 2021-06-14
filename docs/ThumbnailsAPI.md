@@ -19,7 +19,7 @@ As this is not an insert in a strict sense (it supports uploading/setting of a t
 ### Example 
 ```swift
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
-import OpenAPIClient
+import YouTubeKit
 
 let videoId = "videoId_example" // String | Returns the Thumbnail with the given video IDs for Stubby or Apiary.
 let xgafv = "xgafv_example" // String | V1 error format. (optional)
